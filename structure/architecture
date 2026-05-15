@@ -1,4 +1,4 @@
-structure understandings 
+structure understandings 3
 
 
 internet data/web scraped data 
@@ -8,3 +8,6 @@ generate pretrainig
 then comes the concept of RLHF (re eforcement learning by human feedback)
 
 rlfh has multiple things as well ...like rewards system for chossing the best reply possible 
+it has SFT training corpuos
+Request -> conversation history
+
