@@ -12,3 +12,6 @@ it has SFT training corpuos
 Request -> conversation history
 
 Response -> best ideal response 
+
+
+then comes training  base gpt model -->> sft gpt model
