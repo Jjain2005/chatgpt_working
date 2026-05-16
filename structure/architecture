@@ -15,3 +15,6 @@ Response -> best ideal response
 
 
 then comes training  base gpt model -->> sft gpt model
+
+stage 3 involves RLHF 
+GIVES ranking on the basis of responses
