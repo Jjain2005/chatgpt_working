@@ -18,3 +18,5 @@ then comes training  base gpt model -->> sft gpt model
 
 stage 3 involves RLHF 
 GIVES ranking on the basis of responses
+it is based on probability (binary classification)/ Binary cross entropy
+so if probability/score  is high it is good response  
