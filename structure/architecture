@@ -1,3 +1,4 @@
+
 structure understandings 3
 
 
@@ -56,5 +57,32 @@ accuracy,
 safety,
 clarity,
 and overall quality.
+
+Reward Model & Ranking System
+These rankings are used to train a reward model that predicts which response is better.
+
+The system works probabilistically:
+
+higher probability/score → better response
+lower probability/score → weaker response
+
+This process often involves:
+
+binary classification
+and optimization using Binary Cross-Entropy (BCE) loss.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
