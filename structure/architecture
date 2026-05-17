@@ -30,4 +30,18 @@ grammar,
 facts,
 and contextual understanding.
 
+
+Supervised Fine-Tuning (SFT)
+After pretraining, the model undergoes SFT (Supervised Fine-Tuning) using high-quality human-written examples.
+
+Structure:
+
+Request/Input: conversation history or user prompt
+Response/Output: the best ideal response written by humans
+
+The goal is to teach the model how an ideal assistant should respond.
+
+Flow:
+Base GPT Model → SFT GPT Model
+
 This produces the Base GPT Model.
