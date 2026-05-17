@@ -20,3 +20,14 @@ stage 3 involves RLHF
 GIVES ranking on the basis of responses
 it is based on probability (binary classification)/ Binary cross entropy
 so if probability/score  is high it is good response  
+
+Pretraining the Base GPT Model
+The model is first trained on this massive dataset to learn:
+
+language patterns,
+reasoning,
+grammar,
+facts,
+and contextual understanding.
+
+This produces the Base GPT Model.
