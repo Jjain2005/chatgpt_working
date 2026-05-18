@@ -60,6 +60,12 @@ The base model is then fine-tuned to maximize predicted rewards
 Final Result:
 SFT GPT Model → [RLHF Training] → Aligned, Production-Ready Model
 
+High Reward (0.8 - 1.0):    Excellent response, very helpful
+Medium-High (0.6 - 0.8):   Good response, mostly correct
+Medium (0.4 - 0.6):        Acceptable but with flaws
+Medium-Low (0.2 - 0.4):    Problematic, unclear
+Low (0.0 - 0.2):           Poor response, unhelpful/harmful
+
 
 
 
