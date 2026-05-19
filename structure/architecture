@@ -101,3 +101,14 @@ Mathematics
 Factual accuracy
 
 
+Common benchmarks:
+MMLU
+GSM8K
+HumanEval
+BIG-Bench
+TruthfulQA
+Goal:
+
+Ensure the model meets production standards.
+
+
