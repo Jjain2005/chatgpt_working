@@ -68,7 +68,25 @@ Low (0.0 - 0.2):           Poor response, unhelpful/harmful
 
 
 
-alright good to go 
+stage 4: Safety Alignment & Guardrail Training
+
+After RLHF, additional safety-focused training is applied.
+
+Objectives:
+Prevent harmful outputs
+Reduce hallucinations
+Block unsafe or illegal instructions
+
+Methods:
+Adversarial prompting
+Red-team testing
+Constitutional AI rules
+Safety classifiers
+Policy fine-tuning
+
+Flow:
+
+Aligned Model → [Safety Alignment] → Safer Assistant Model
 
 
 
