@@ -111,5 +111,30 @@ Goal:
 
 Ensure the model meets production standards.
 
-alright here we go
-
+Raw Internet Data
+        ↓
+Pretraining
+        ↓
+Base GPT Model
+        ↓
+Supervised Fine-Tuning (SFT)
+        ↓
+SFT Model
+        ↓
+RLHF / Preference Optimization
+        ↓
+Aligned Model
+        ↓
+Safety Alignment & Guardrails
+        ↓
+Evaluation & Benchmarking
+        ↓
+Optimization & Compression
+        ↓
+Deployment Infrastructure
+        ↓
+Production Usage
+        ↓
+Monitoring & Feedback
+        ↓
+Continuous Retraining & Updates
