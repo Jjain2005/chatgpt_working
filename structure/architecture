@@ -138,3 +138,30 @@ Production Usage
 Monitoring & Feedback
         ↓
 Continuous Retraining & Updates
+
+
+
+
+here we will try to understand tranformer acchitecture 
+
+
+
+over all idea
+
+Input Sentence
+      ↓
+Tokenization
+      ↓
+Embeddings
+      ↓
+Positional Encoding
+      ↓
+Multi-Head Self Attention
+      ↓
+Feed Forward Network
+      ↓
+Repeat Many Layers
+      ↓
+Output Probabilities
+      ↓
+Predicted Next Token
