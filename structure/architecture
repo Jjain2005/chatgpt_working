@@ -167,6 +167,18 @@ Output Probabilities
 Predicted Next Token
 
 
-
-
 these tokens are basically next words we can say 
+
+lets try to understand RAG architecture. 
+
+rag is retrival augmented genearation
+
+
+
+
+
+
+
+
+
+
