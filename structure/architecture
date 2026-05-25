@@ -175,9 +175,10 @@ it works more like a 4 layered memory architecture:
 
 layer 1 -> session metadata
 device, subscription, usage patterns — injected when the session starts.
-explicit facts
-
-
+layer 2 -> explicit facts
+things you directly tell the model to remember.
+layer 3 -> conversation summaries
+compressed context from previous chats.
 
 
 
