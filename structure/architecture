@@ -169,14 +169,9 @@ Predicted Next Token
 
 these tokens are basically next words we can say 
 
-lets try to understand RAG architecture. 
+chatgpt doesn’t really use traditional rag the way most people think.
 
-rag is retrival augmented genearation
-
-
-
-
-
+it works more like a 4 layered memory architecture:
 
 
 
