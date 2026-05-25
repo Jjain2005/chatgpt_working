@@ -173,6 +173,10 @@ chatgpt doesn’t really use traditional rag the way most people think.
 
 it works more like a 4 layered memory architecture:
 
+layer 1 -> session metadata
+device, subscription, usage patterns — injected when the session starts.
+explicit facts
+
 
 
 
