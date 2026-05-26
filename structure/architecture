@@ -180,6 +180,6 @@ things you directly tell the model to remember.
 layer 3 -> conversation summaries
 compressed context from previous chats.
 layer 4 -> stores current conversation 
-
+here its the most active part going on and with managing chat histort and giving reply as well
 
 
