@@ -179,6 +179,7 @@ layer 2 -> explicit facts
 things you directly tell the model to remember.
 layer 3 -> conversation summaries
 compressed context from previous chats.
+layer 4 -> stores current conversation 
 
 
 
