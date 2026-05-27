@@ -182,4 +182,7 @@ compressed context from previous chats.
 layer 4 -> stores current conversation 
 here its the most active part going on and with managing chat histort and giving reply as well
 
+also we will try to understand rag achitecture here
+rag is retrieval augmented generation
+
 
