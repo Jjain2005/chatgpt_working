@@ -185,4 +185,8 @@ here its the most active part going on and with managing chat histort and giving
 also we will try to understand rag achitecture here
 rag is retrieval augmented generation
 
-
+basically its a countinuatioin steps 
+1. data ingestion techniques 
+2. chunking 
+3. embeddings
+4. vector store databases 
