@@ -195,3 +195,7 @@ basically its a countinuatioin steps
 
 data ingestions techniques include pypdfloader , loader.load() this is basically how you give your data for chunking 
 this is may be in the form of text , pdf etc 
+
+
+then comes data chunking techniques which include recusrsive charachter text splitter. here we split our data into parts/chunks 
+having two important parameters in the recursive_character_text_splitter(chunk_size,chunk_overlap) 
