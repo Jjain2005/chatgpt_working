@@ -199,3 +199,6 @@ this is may be in the form of text , pdf etc
 
 then comes data chunking techniques which include recusrsive charachter text splitter. here we split our data into parts/chunks 
 having two important parameters in the recursive_character_text_splitter(chunk_size,chunk_overlap) 
+for example chunk_size =1000 so this will take first 1000 character for text given and chunk overlap is 200 it will take previous 200 words 
+then our next chunk will include words from 800-1800 . 
+
