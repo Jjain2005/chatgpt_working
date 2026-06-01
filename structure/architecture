@@ -202,3 +202,7 @@ having two important parameters in the recursive_character_text_splitter(chunk_s
 for example chunk_size =1000 so this will take first 1000 character for text given and chunk overlap is 200 it will take previous 200 words 
 then our next chunk will include words from 800-1800 . 
 
+then comes embedidding techniques/ vector conversions 
+so basically we have huggiface embedding , open ai embedding 
+convert words into vectors 
+
