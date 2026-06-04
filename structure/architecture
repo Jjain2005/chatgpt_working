@@ -251,3 +251,26 @@ The top-k most relevant chunks are retrieved.
 Example:
 
 retriever = vectorstore.as_retriever(search_kwargs={"k":3})
+
+
+Retrieval-Augmented Generation (RAG)
+
+Now the retrieved chunks are passed to the LLM along with the user's question.
+
+Prompt format:
+
+Context:
+[Retrieved Chunks]
+
+Question:
+[User Query]
+
+
+The LLM generates an answer using the retrieved context instead of relying only on its training data.
+
+This helps:
+
+Reduce hallucinations
+Answer questions from private documents
+Provide more accurate responses
+Use up-to-date information
