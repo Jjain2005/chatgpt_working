@@ -206,3 +206,22 @@ then comes embedidding techniques/ vector conversions
 so basically we have huggiface embedding , open ai embedding 
 convert words into vectors 
 
+
+Vector Store / Database
+
+After converting our text chunks into vectors using embedding models, we need a place to store these vectors. This is where Vector Databases come into the picture.
+
+Popular vector databases include:
+
+FAISS
+Chroma
+Pinecone
+Weaviate
+
+The workflow is:
+
+Split documents into chunks.
+Convert chunks into embeddings (vectors).
+Store vectors in a vector database.
+
+Each vector is stored along with its corresponding text chunk (metadata).
