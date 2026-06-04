@@ -157,6 +157,9 @@ Embeddings
 Positional Encoding
       ↓
 Multi-Head Self Attention
+
+
+
       ↓
 Feed Forward Network
       ↓
@@ -225,3 +228,26 @@ Convert chunks into embeddings (vectors).
 Store vectors in a vector database.
 
 Each vector is stored along with its corresponding text chunk (metadata).
+
+
+Similarity Search / Retrieval
+
+When a user asks a question:
+
+Example: "What are the key responsibilities of a Data Scientist?"
+
+The question is first converted into an embedding using the same embedding model.
+
+Then the vector database performs similarity search to find the most relevant chunks by comparing vector distances.
+
+Common similarity metrics:
+
+Cosine Similarity
+Euclidean Distance
+Dot Product
+
+The top-k most relevant chunks are retrieved.
+
+Example:
+
+retriever = vectorstore.as_retriever(search_kwargs={"k":3})
