@@ -274,3 +274,5 @@ Reduce hallucinations
 Answer questions from private documents
 Provide more accurate responses
 Use up-to-date information
+
+then comes the evaluation part of gpt. here we learn about how model is trained 
