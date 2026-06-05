@@ -276,3 +276,7 @@ Provide more accurate responses
 Use up-to-date information
 
 then comes the evaluation part of gpt. here we learn about how model is trained 
+
+
+Measures how often the model generates false information.
+Lower hallucination rate = better model quality.
