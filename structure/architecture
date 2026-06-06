@@ -1,4 +1,8 @@
 
+
+
+
+
 Large Language Model Training: A Three-Stage Pipeline
 Stage 1: Pretraining the Base GPT Model
 The foundation begins with massive-scale unsupervised learning on internet-sourced and web-scraped data.
@@ -280,3 +284,13 @@ then comes the evaluation part of gpt. here we learn about how model is trained
 
 Measures how often the model generates false information.
 Lower hallucination rate = better model quality.
+
+Human Feedback (RLHF)
+RLHF = Reinforcement Learning from Human Feedback
+Humans compare multiple model responses.
+Example:
+Prompt: "Explain photosynthesis."
+Response A → Clear and accurate ✅
+Response B → Confusing ❌
+Human evaluators rank the responses.
+The model learns to prefer answers that humans rate higher.
