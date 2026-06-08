@@ -285,7 +285,20 @@ RLHF = Reinforcement Learning from Human Feedback
 Humans compare multiple model responses.
 Example:
 Prompt: "Explain photosynthesis."
-Response A → Clear and accurate ✅
-Response B → Confusing ❌
+Response A → Clear and accurate 
+Response B → Confusing 
 Human evaluators rank the responses.
 The model learns to prefer answers that humans rate higher.
+
+
+2. Accuracy
+
+Measures how often the model provides the correct answer.
+
+Formula:
+
+Accuracy=
+Total Predictions
+Correct Predictions
+
+Higher accuracy indicates better performance
