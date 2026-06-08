@@ -302,3 +302,19 @@ Total Predictions
 Correct Predictions
 
 Higher accuracy indicates better performance
+
+
+Measures whether the generated response actually answers the user's question.
+
+Example:
+
+Question: What is Machine Learning?
+
+Relevant Answer: Machine Learning is a subset of AI that enables systems to learn from data. 
+
+Irrelevant Answer: The weather today is sunny. 
+
+
+
+
+
