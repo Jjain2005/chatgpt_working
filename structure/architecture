@@ -315,6 +315,10 @@ Relevant Answer: Machine Learning is a subset of AI that enables systems to lear
 Irrelevant Answer: The weather today is sunny. 
 
 
+lets us try to understand temperature while calling a model 
+temperature basically tells our model how much creative answers to create/generate --> thats to the point answer 
+
+
 
 
 
