@@ -324,6 +324,26 @@ lets us try to understand temperature while calling a model
 temperature basically tells our model how much creative answers to create/generate --> thats to the point answer 
 
 
+Hybrid Search = Best of Both
 
+Combine:
+
+Vector Search
++
+Keyword Search
+User Query
+      ↓
+ ┌───────────┐
+ │ BM25      │
+ └───────────┘
+      +
+ ┌───────────┐
+ │ Embedding │
+ │ Search    │
+ └───────────┘
+      ↓
+ Combined Ranking
+      ↓
+ Best Documents
 
 
