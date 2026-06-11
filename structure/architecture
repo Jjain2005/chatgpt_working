@@ -239,6 +239,11 @@ The question is first converted into an embedding using the same embedding model
 
 Then the vector database performs similarity search to find the most relevant chunks by comparing vector distances.
 
+
+today we will try to understand hybird search 
+it include semantic + syntatic search 
+in sytatic search its basically keywords search which include many things 
+
 Common similarity metrics:
 
 Cosine Similarity
