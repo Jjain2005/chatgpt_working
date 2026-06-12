@@ -364,7 +364,25 @@ Multi-hop connections
 using a graph database such as Neo4j.
 
 
-
+User Question
+      |
+      V
+Entity Extraction
+      |
+      V
+Knowledge Graph
+      |
+      V
+Graph Traversal
+      |
+      V
+Relevant Facts
+      |
+      V
+LLM
+      |
+      V
+Answer
 
 
 
