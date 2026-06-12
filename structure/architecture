@@ -347,3 +347,29 @@ User Query
  Best Documents
 
 
+
+now procedding towards graph rag
+
+GraphRAG = Knowledge Graph + RAG + LLM
+
+Traditional RAG retrieves chunks of text using vector similarity.
+
+GraphRAG retrieves:
+
+Text chunks
+Entities
+Relationships
+Multi-hop connections
+
+using a graph database such as Neo4j.
+
+
+
+
+
+
+
+
+
+
+
