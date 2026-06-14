@@ -389,7 +389,13 @@ Answer
 
 alright today we will try to understand about finetuning an llm model
 
-its include a term quantization -->> converting high bit number into smaller bit number
+its include a term quantization --> converting high bit number into smaller bit number.
+
+finetuning the model . here we will learn abour low rank adaptation and quantized low rank adaptation
+
+
+
+
 
 
 
