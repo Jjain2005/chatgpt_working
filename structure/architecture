@@ -392,6 +392,16 @@ alright today we will try to understand about finetuning an llm model
 its include a term quantization --> converting high bit number into smaller bit number.
 
 finetuning the model . here we will learn abour low rank adaptation and quantized low rank adaptation
+that is LORA and QLORA.
+
+
+
+
+
+
+but today will try to understand SFT (SUPERVISIED FINE TUNING) VS CPT (countinued pre training)
+in cpt is basically its raw text generation. just countinues to generate text learnt from base model. 
+doesn't know how to properly formulate the answer/ doesnot knwo about architecture of answer 
 
 
 
