@@ -406,7 +406,10 @@ doesn't know how to properly formulate the answer/ doesnot knwo about architectu
 
 
 today will we will learn about LORA -> we should not finetune a big 7B model ..which has 7B weights 
-in lora the pre trained model is freezon , lora learns through  a small rank update throgh trainable matrices A and B 
+in lora the pre trained model is freezon , lora learns through  a small rank update throgh trainable matrices A and B and the new matrix is 
+The final fine-tuned model is obtained by combining the pre-trained weights and the 
+learned LoRA updates, i.e., W + ΔW. This achieves performance similar to 
+full fine-tuning while training far fewer parameters.                       
 
 
 
