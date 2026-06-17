@@ -416,6 +416,9 @@ quantised low rank adoptions -> its something related to    quantization of base
 Quantize base model to 4-bit
 
 
+the low rank matrix in lora it has two things as well . downstream and upstream . in which downstream is the matrix which reduces the size and upstream 
+is the matrix which gets its size back 
+
 
 
 
