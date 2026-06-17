@@ -412,6 +412,9 @@ learned LoRA updates, i.e., W + ΔW. This achieves performance similar to
 full fine-tuning while training far fewer parameters.                       
 
 
+quantised low rank adoptions -> its something related to    quantization of base model to 4 bit and then using LoRA techniques 
+Quantize base model to 4-bit
+
 
 
 
