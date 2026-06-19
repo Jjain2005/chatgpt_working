@@ -421,5 +421,7 @@ is the matrix which gets its size back
 
 
 
-
+cpt vs sft 
+sft is supervised fine tuning..
+here we fine-tune our model based on specific parameters 
 
