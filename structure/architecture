@@ -425,3 +425,16 @@ cpt vs sft
 sft is supervised fine tuning..
 here we fine-tune our model based on specific parameters 
 
+
+Suppose you have a 7B parameter model.
+
+7 Billion Parameters
+≈ 14 GB (FP16)
+
+During training you need:
+
+Model weights
+Gradients
+Optimizer states
+
+Memory requirement becomes hug
