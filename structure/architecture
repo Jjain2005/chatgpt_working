@@ -438,3 +438,24 @@ Gradients
 Optimizer states
 
 Memory requirement becomes hug
+
+Why LoRA?
+
+Suppose a weight matrix in an LLM is:
+
+W∈R
+d×k
+
+In Full Fine-Tuning:
+
+Update all weights in W
+Requires storing gradients for all parameters
+Huge GPU memory requirement
+
+In LoRA:
+
+Pretrained weight matrix is frozen.
+
+Instead of updating W, we learn a small update:
+
+ΔW=BA
