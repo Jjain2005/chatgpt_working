@@ -459,3 +459,16 @@ Pretrained weight matrix is frozen.
 Instead of updating W, we learn a small update:
 
 ΔW=BA
+Why use QLoRA?
+Quantizes base model to 4-bit
+Further reduces memory
+Enables training large models on smaller GPUs
+Difference between CPT and SFT?
+
+CPT teaches new knowledge.
+
+SFT teaches how to respond.
+
+Does LoRA change original weights?
+
+No.
