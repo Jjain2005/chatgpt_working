@@ -470,5 +470,25 @@ CPT teaches new knowledge.
 SFT teaches how to respond.
 
 Does LoRA change original weights?
-
 No.
+
+Quantization
+
+Quantization means reducing numerical precision.
+
+Example:
+
+FP32 → FP16 → INT8 → INT4
+
+Memory:
+
+32-bit = largest
+16-bit = half
+8-bit  = smaller
+4-bit  = very small
+
+Tradeoff:
+
+Memory ↓
+Speed ↑
+Accuracy may slightly ↓
