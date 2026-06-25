@@ -522,3 +522,28 @@ Base Model = 14 GB
 Fine-tuned Model 1 = 14 GB
 Fine-tuned Model 2 = 14 GB
 Fine-tuned Model 3 = 14 GB
+
+
+Why Low Rank?
+
+Instead of learning:
+
+4096 × 4096
+
+parameters
+
+we learn
+
+4096 × 16
++
+16 × 4096
+
+which is much smaller.
+
+Result:
+
+Trainable parameters ↓↓↓
+Memory ↓↓↓
+Training cost ↓↓↓
+
+while performance remains close to full fine-tuning.
