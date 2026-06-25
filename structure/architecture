@@ -492,3 +492,33 @@ Tradeoff:
 Memory ↓
 Speed ↑
 Accuracy may slightly ↓
+
+
+
+Why not Full Fine-Tuning?
+
+Suppose you have a 7B parameter model.
+
+7 Billion Parameters
+≈ 14 GB (FP16)
+
+During training you need:
+
+Model weights
+Gradients
+Optimizer states
+
+Memory requirement becomes huge.
+
+Problems:
+
+Expensive GPUs
+Slow training
+Large storage for every fine-tuned version
+
+Example:
+
+Base Model = 14 GB
+Fine-tuned Model 1 = 14 GB
+Fine-tuned Model 2 = 14 GB
+Fine-tuned Model 3 = 14 GB
