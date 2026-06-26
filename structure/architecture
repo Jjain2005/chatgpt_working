@@ -547,3 +547,14 @@ Memory ↓↓↓
 Training cost ↓↓↓
 
 while performance remains close to full fine-tuning.
+
+
+
+today I learnt about the structured output format from llm .
+
+there are mainly 3 ways . 
+base model fields
+
+type dict 
+
+databases model
