@@ -558,3 +558,15 @@ base model fields
 type dict 
 
 databases model
+
+
+LoRA assumes:
+"For a downstream task, we don't need to learn a huge full matrix. A small low-rank update is enough."
+Example
+Without LoRA:
+Plain text
+4096 × 4096
+≈ 16.7 million parameters
+With LoRA (r = 8):
+Plain text
+A = 4096 
