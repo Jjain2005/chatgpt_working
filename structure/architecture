@@ -570,3 +570,6 @@ Plain text
 With LoRA (r = 8):
 Plain text
 A = 4096 
+
+
+LoRA does not update the original pre-trained model weights. The base model remains frozen, and LoRA learns a small set of additional weights that represent the required changes for the new task. During inference, these LoRA weights are combined with the original weights, allowing the model to behave like a fine-tuned model while training far fewer parameters.
