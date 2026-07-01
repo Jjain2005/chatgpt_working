@@ -1,4 +1,4 @@
-Large Language Model Training: A Three-Stage Pipeline
+Reward hacking occurs when an AI model exploits weaknesses in the reward function to maximize reward without actually achieving the intended behavior. In RLHF, this happens when the LLM learns shortcuts that fool the reward model rather than genuinely producing better responses.Large Language Model Training: A Three-Stage Pipeline
 Stage 1: Pretraining the Base GPT Model
 The foundation begins with massive-scale unsupervised learning on internet-sourced and web-scraped data.
 What the model learns:
