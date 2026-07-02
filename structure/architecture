@@ -1,4 +1,7 @@
-Reward hacking occurs when an AI model exploits weaknesses in the reward function to maximize reward without actually achieving the intended behavior. In RLHF, this happens when the LLM learns shortcuts that fool the reward model rather than genuinely producing better responses.Large Language Model Training: A Three-Stage Pipeline
+The key lesson for interviews:
+AIMessage → .content
+list[AIMessage] → [-1].content
+The error "object is not subscriptable" usually means you're treating a single object like a list or dictionaryReward hacking occurs when an AI model exploits weaknesses in the reward function to maximize reward without actually achieving the intended behavior. In RLHF, this happens when the LLM learns shortcuts that fool the reward model rather than genuinely producing better responses.Large Language Model Training: A Three-Stage Pipeline
 Stage 1: Pretraining the Base GPT Model
 The foundation begins with massive-scale unsupervised learning on internet-sourced and web-scraped data.
 What the model learns:
