@@ -581,3 +581,32 @@ LoRA does not update the original pre-trained model weights. The base model rema
 
 
 Inference is the process of using a trained model to generate predictions or responses. For an LLM, a single inference means one request-response generation cycle where the model reads the input context and produces output tokens.
+
+Why use QLoRA?
+Quantizes base model to 4-bit
+Further reduces memory
+Enables training large models on smaller GPUs
+Difference between CPT and SFT?
+
+CPT teaches new knowledge.
+
+SFT teaches how to respond.
+
+Does LoRA change original weights?
+
+No.
+
+Original model weights remain frozen.
+
+Only LoRA adapter weights are trained.
+
+
+
+
+
+
+
+
+
+
+
