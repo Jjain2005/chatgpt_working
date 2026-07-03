@@ -601,7 +601,26 @@ Original model weights remain frozen.
 Only LoRA adapter weights are trained.
 
 
+pipeline 
 
+
+Base Model
+Llama
+Mistral
+Qwen
+CPT (Optional)
+
+Learn domain knowledge
+SFT
+
+Learn task-specific behavior
+
+Preference Alignment
+RLHF
+DPO
+ORPO
+
+Deployment
 
 
 
