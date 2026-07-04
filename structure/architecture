@@ -623,7 +623,33 @@ ORPO
 Deployment
 
 
+QLoRA Pipeline
 
+Step 1:
+
+Load pretrained model.
+
+Step 2:
+
+Quantize model to 4-bit.
+
+Step 3:
+
+Freeze quantized weights.
+
+Step 4:
+
+Attach LoRA adapters.
+
+Step 5:
+
+Train only LoRA matrices.
+
+Result:
+
+Very low memory usage
+Similar performance to full fine-tuning
+Can fine-tune large models on consumer GPUs
 
 
 
