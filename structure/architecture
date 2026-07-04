@@ -653,5 +653,27 @@ Can fine-tune large models on consumer GPUs
 
 
 
+Quantization
 
+Convert weights from:
+
+FP16 → INT8 → INT4
+
+Memory reduces significantly.
+
+Example:
+
+7B model
+
+FP16:
+
+≈ 14 GB
+
+INT8:
+
+≈ 7 GB
+
+INT4:
+
+≈ 3.5–4 GB
 
