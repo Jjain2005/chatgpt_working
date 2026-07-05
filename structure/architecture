@@ -699,3 +699,25 @@ Ratings
 Correct labels
 Reward models
 
+
+
+How Modern Systems Handle This
+
+Instead of modifying weights after every chat, companies use:
+
+Memory
+
+Store facts separately:
+
+User likes Python
+User lives in Nagpur
+
+No weight updates needed.
+
+RAG
+
+Retrieve external information:
+
+Vector DB
+Documents
+Knowledge Base
