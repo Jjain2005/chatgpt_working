@@ -677,3 +677,25 @@ INT4:
 
 ≈ 3.5–4 GB
 
+6. The Model Doesn't Know If Its Answer Is Correct
+
+To fine-tune, you need a target:
+
+Question
+Correct Answer
+
+The model only generates answers.
+
+It doesn't automatically know:
+
+whether the answer is correct
+whether the user liked it
+whether the output should change
+
+Training requires a signal such as:
+
+Human feedback
+Ratings
+Correct labels
+Reward models
+
