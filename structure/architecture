@@ -742,11 +742,10 @@ agent=create_agent(
 
 )
 
+LLMs cannot fine-tune themselves during inference because 
 
-Result:
-
-lower token usage
-cheaper
-faster
-avoids context window overflow
+fine-tuning requires backpropagation, loss computation, and expensive weight updates. 
+Continuous self-learning would also cause catastrophic forgetting, security risks, 
+data poisoning, and unstable behavior. Instead, modern AI systems use memory, RAG,
+and periodic offline fine-tuning to improve models safely.
 
