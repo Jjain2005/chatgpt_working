@@ -742,3 +742,11 @@ agent=create_agent(
 
 )
 
+
+Result:
+
+lower token usage
+cheaper
+faster
+avoids context window overflow
+
