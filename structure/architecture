@@ -724,3 +724,21 @@ Knowledge Base
 
 
 
+from langchain.agents import create_agent
+from langchain.agents.middleware import SummarizationMiddleware
+from langgraph.checkpoint.memory import InMemorySaver # saves memory in my local hardware 
+from langchain_core.messages import HumanMessage,SystemMessage
+
+agent=create_agent(
+    model=" groq:llama-3.3-70b-versatile",
+    checkpointer=InMemorySaver(),
+    middleware=[
+        SummarizationMiddleware(
+            model=" groq:llama-3.3-70b-versatile",
+            trigger=("messages",10),
+            keep=("messages",4)   
+        )
+    ]
+
+)
+
