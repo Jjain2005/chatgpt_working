@@ -756,3 +756,13 @@ If you start with $100 and, after exchanging through these currencies, end up wi
 How CS solves it
 This problem is modeled as a graph:
 Each currency
+
+
+
+
+
+Algorithms commonly used:
+Bellman–Ford algorithm — detects negative-weight cycles in O(VE) time.
+Floyd–Warshall algorithm — can also detect negative cycles in O(V³) time.
+This is a classic interview and university algorithms problem because it combines graph modeling, mathematical transformation, and shortest-path algorithms.
+If you meant arbitrage in a different CS context (such as cloud computing, networking, or distributed systems), let me know.
