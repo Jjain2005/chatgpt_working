@@ -779,3 +779,13 @@ Start with 100 USD:
 90 EUR → 72 GBP
 72 GBP → 108 USD
 You started with 100 USD and ended with 108 USD without adding any money. That's an arbitrage opportunity.
+
+demonstrates how to:
+Model real-world problems as graphs.
+Convert multiplication into addition using logarithms.
+Apply graph algorithms to finance and optimization.
+This is a classic example in courses on:
+Data Structures & Algorithms
+Graph Theory
+Algorithm Design
+Competitive Programming
