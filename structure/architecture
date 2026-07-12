@@ -809,3 +809,13 @@ The middleware checks:
 
 User logged in? → Allow
 Not logged in? → Stop
+
+
+Another Example
+User -> Logging Middleware -> App
+
+The middleware writes:
+
+User visited /home
+
+to a log file.
