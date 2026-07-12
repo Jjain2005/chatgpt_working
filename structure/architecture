@@ -789,3 +789,23 @@ Data Structures & Algorithms
 Graph Theory
 Algorithm Design
 Competitive Programming
+
+
+In simple words:
+
+Middleware is a helper that sits in the middle.
+
+User -> Middleware -> App
+
+Before the request reaches the app, middleware can do some work.
+
+Example
+
+You want only logged-in users to see their profile.
+
+User -> Auth Middleware -> Profile Page
+
+The middleware checks:
+
+User logged in? → Allow
+Not logged in? → Stop
