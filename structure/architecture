@@ -838,3 +838,22 @@ Common uses of middleware:
 1. Memory Management
 
 For long conversations, middleware can summarize old messages before sending them to the model.
+
+
+SummarizationMiddleware(...)
+
+Instead of sending 100 messages:
+
+[message1, message2, ..., message100]
+
+it may send:
+
+[summary_of_old_chat, recent_messages]
+
+This saves tokens and cost.
+
+2. Guardrails
+
+Check user input before it reaches the model.
+
+Example:
