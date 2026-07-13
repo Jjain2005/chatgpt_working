@@ -819,3 +819,22 @@ The middleware writes:
 User visited /home
 
 to a log file.
+
+
+Middleware is needed when you want to add behavior around the main model call without changing the model or agent logic itself.
+
+Think of it like a checkpoint between the user and the LLM.
+
+Without middleware:
+
+User → Agent → LLM → Response
+
+With middleware:
+
+User → Middleware → Agent → LLM → Middleware → Response
+
+Common uses of middleware:
+
+1. Memory Management
+
+For long conversations, middleware can summarize old messages before sending them to the model.
