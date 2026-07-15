@@ -886,3 +886,9 @@ one step closer to understanding agentic ai.
 
 #ai #agenticai #langgraph #python #learninginpublic
 
+from typing_extensions import TypedDict
+
+class State(TypedDict):
+    name: str
+    age: int
+
