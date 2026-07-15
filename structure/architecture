@@ -892,3 +892,11 @@ class State(TypedDict):
     name: str
     age: int
 
+
+from dataclasses import dataclass
+
+@dataclass
+class State:
+    name: str
+    age: int
+
