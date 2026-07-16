@@ -913,3 +913,18 @@ Create flashcards and quizzes for learning.
 Produce podcast-style Audio Overviews that discuss your documents as if two hosts were explaining them.
 Organize multiple sources into a single research notebook.
 
+Example
+
+Suppose you're preparing for an exam:
+
+Upload your lecture slides, textbook chapters, and notes.
+Ask:
+"Summarize Chapter 5."
+"What are the main differences between TCP and UDP?"
+"Create a 20-question quiz."
+NotebookLM answers using only your uploaded materials and can point back to where the information came from.
+How it differs from ChatGPT
+NotebookLM focuses on your documents and cites them, making it ideal for research and studying.
+ChatGPT is a general-purpose AI assistant that can help with brainstorming, coding, writing, conversations, and many other tasks, with or without uploaded files.
+
+If you work with large PDFs, research papers, meeting notes, or textbooks, NotebookLM is one of the strongest tools available for turning those materials into understandable summaries and study resources.
