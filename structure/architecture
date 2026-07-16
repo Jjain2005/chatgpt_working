@@ -900,3 +900,16 @@ class State:
     name: str
     age: int
 
+
+
+Google NotebookLM is an AI-powered research and note-taking tool from Google that uses Gemini models to help you understand information you've provided. Instead of answering from general internet knowledge, it grounds its responses in the sources you upload, making it especially useful for studying, research, and document analysis.
+
+Some of its key capabilities include:
+
+Upload PDFs, Google Docs, websites, YouTube videos (via transcripts), text, and other sources into a notebook.
+Ask questions about your materials in natural language.
+Generate summaries, study guides, FAQs, timelines, and outlines.
+Create flashcards and quizzes for learning.
+Produce podcast-style Audio Overviews that discuss your documents as if two hosts were explaining them.
+Organize multiple sources into a single research notebook.
+
