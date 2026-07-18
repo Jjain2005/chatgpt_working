@@ -1,4 +1,4 @@
-The key lesson for interviews:
+vThe key lesson for interviews:
 AIMessage → .content
 list[AIMessage] → [-1].content
 The error "object is not subscriptable" usually means you're treating a single object like a list or dictionaryReward hacking occurs when an AI model exploits weaknesses in the reward function to maximize reward without actually achieving the intended behavior. In RLHF, this happens when the LLM learns shortcuts that fool the reward model rather than genuinely producing better responses.Large Language Model Training: A Three-Stage Pipeline
@@ -927,4 +927,18 @@ How it differs from ChatGPT
 NotebookLM focuses on your documents and cites them, making it ideal for research and studying.
 ChatGPT is a general-purpose AI assistant that can help with brainstorming, coding, writing, conversations, and many other tasks, with or without uploaded files.
 
+
 If you work with large PDFs, research papers, meeting notes, or textbooks, NotebookLM is one of the strongest tools available for turning those materials into understandable summaries and study resources.
+
+
+
+
+You're currently connected through EC2 Instance Connect (browser terminal). It works great for learning.
+
+Later, when deploying real projects, you'll usually SSH from your Mac terminal using the .pem key because it's more convenient and supports file transfers (scp, rsync, Git workflows, VS Code Remote SSH, etc.).
+
+For now, run:
+
+whoami
+pwd
+python3 --version
