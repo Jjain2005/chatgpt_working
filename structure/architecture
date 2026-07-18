@@ -942,3 +942,193 @@ For now, run:
 whoami
 pwd
 python3 --version
+
+
+step 7 
+
+Great. Now let's connect to your EC2 from your Mac.
+
+1. Find your Public IP
+
+In AWS:
+
+EC2 → Instances → Click your instance
+
+Look for:
+
+Public IPv4 address
+
+It will look something like:
+
+13.232.xxx.xxx
+
+Copy it.
+
+2. Open Terminal on your Mac
+
+Go to the folder containing your .pem key.
+
+If it's in Downloads:
+
+cd ~/Downloads
+
+Check it's there:
+
+ls
+
+You should see something like:
+
+my-key.pem
+3. Secure the key
+
+Run:
+
+chmod 400 my-key.pem
+
+Replace my-key.pem with your actual key filename.
+
+Example:
+
+chmod 400 aws-key.pem
+4. SSH into the instance
+
+For Ubuntu AMIs, the username is usually ubuntu.
+
+Run:
+
+ssh -i my-key.pem ubuntu@PUBLIC_IP
+
+Example:
+
+ssh -i my-key.pem ubuntu@13.232.xxx.xxx
+5. First-time connection
+
+You'll likely see:
+
+The authenticity of host ... can't be established.
+Are you sure you want to continue connecting (yes/no)?
+
+Type:
+
+yes
+
+and press Enter.
+
+6. Success
+
+If everything works, you'll see something like:
+
+ubuntu@ip-172-31-xx-xx:~$
+
+You're now logged into your AWS server.
+
+7. First commands to run
+whoami
+pwd
+ls
+sudo apt update
+
+If you get any error (Permission denied, Connection timed out, Host key issue, etc.), paste the exact terminal output here and I'll help you fix it.
+
+Looks good.
+
+The only thing I notice is:
+
+Status: 0/2 checks passed
+
+That's normal right after launching.
+
+Wait 1–2 minutes
+
+Refresh until you see:
+
+State: Running
+Status: 2/2 checks passed
+
+Then connect.
+
+Your details
+Public IP: 13.63.129.59
+Username: ubuntu
+On your Mac
+
+Go to where your .pem file is:
+
+cd ~/Downloads
+
+Check the filename:
+
+ls *.pem
+
+Example output:
+
+my-key.pem
+
+Set permissions:
+
+chmod 400 my-key.pem
+
+Connect:
+
+ssh -i my-key.pem ubuntu@13.63.129.59
+
+Replace my-key.pem with your actual key filename.
+
+Alternative (Browser)
+
+You're already on the Connect page.
+
+After the status checks pass:
+
+Keep EC2 Instance Connect selected.
+Click Connect at the bottom.
+
+AWS will open a browser terminal directly into your EC2 instance.
+
+This is actually the quickest way for a first test.
+
+Once you're connected and see a prompt like:
+
+ubuntu@ip-172-31-xx-xx:~$
+
+run:
+
+whoami
+
+and
+
+uname -a
+
+and tell me the output. Then we'll install Python tools and deploy something simple on the server.
+
+Nice 🎉
+
+You are successfully connected to your EC2 instance.
+
+The prompt:
+
+ubuntu@ip-172-31-9-114:~$
+
+means you're logged into a Linux server running on AWS.
+
+Let's verify a few things
+
+Run:
+
+whoami
+
+Expected:
+
+ubuntu
+
+Then:
+
+pwd
+
+Expected:
+
+/home/ubuntu
+Update the server
+sudo apt update
+
+Then:
