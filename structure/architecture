@@ -1132,3 +1132,19 @@ Update the server
 sudo apt update
 
 Then:
+
+6. Upload PDF and ask questions
+Upload PDF
+Keep Session ID (or change it)
+Ask:
+What is this document about?
+You currently have 2 bugs
+Bug 1
+
+You wrote:
+
+sestelsion_history = get_session_history(session_id)
+
+Later:
+
+st.write(session_history.messages)
