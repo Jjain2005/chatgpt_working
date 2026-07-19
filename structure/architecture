@@ -1148,3 +1148,21 @@ sestelsion_history = get_session_history(session_id)
 Later:
 
 st.write(session_history.messages)
+
+Bug 2
+
+Newer LangChain versions may throw:
+
+ImportError: cannot import name 'Ollama'
+
+If that happens, replace:
+
+from langchain_community.llms.ollama import Ollama
+
+with:
+
+from langchain_ollama import OllamaLLM
+
+and:
+
+llm = OllamaLLM(model="llama3")
