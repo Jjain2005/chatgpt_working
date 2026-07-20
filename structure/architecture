@@ -1166,3 +1166,17 @@ from langchain_ollama import OllamaLLM
 and:
 
 llm = OllamaLLM(model="llama3")
+
+
+pip install streamlit
+pip install langchain
+pip install langchain-community
+pip install langchain-core
+pip install langchain-chroma
+pip install chromadb
+pip install langchain-huggingface
+pip install sentence-transformers
+pip install pypdf
+pip install python-dotenv
+pip install ollama
+pip install langchain-text-splitters
