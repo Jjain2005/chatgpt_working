@@ -1536,8 +1536,4 @@ values
 
 (entire updated state)
 
-Interview answer
-updates → "Show me what each node returned."
-values → "Show me the complete state after each node runs."
-
-That's the distinction most LangGraph beginners are expected to know. There are additional modes (such as message/token streaming), but updates and values are the core ones you'll use for understanding graph execution and debugging.
+nodes (such as message/token streaming), but updates and values are the core ones you'll use for understanding graph execution and debugging.
