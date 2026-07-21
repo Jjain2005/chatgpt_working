@@ -1454,3 +1454,90 @@ if uploaded_file:
 
 
 how to runit 
+
+Almost. In LangGraph, the most commonly used stream modes are values and updates, but there are other modes as well.
+
+updates
+
+Streams only what a node returns.
+
+Example:
+
+def chatbot(state):
+    return {"messages": ["Hello"]}
+for event in graph.stream(inputs, stream_mode="updates"):
+    print(event)
+
+Output:
+
+{
+    "chatbot": {
+        "messages": ["Hello"]
+    }
+}
+
+You only see the change made by the node.
+
+values
+
+Streams the entire state after each step.
+
+Suppose state is:
+
+{
+    "messages": ["Hi"]
+}
+
+After the chatbot node:
+
+{
+    "messages": ["Hi", "Hello"]
+}
+for event in graph.stream(inputs, stream_mode="values"):
+    print(event)
+
+Output:
+
+{
+    "messages": ["Hi", "Hello"]
+}
+
+You see the complete state after every node execution.
+
+Quick way to remember
+
+Imagine your state is:
+
+{
+    "name": "Jinam",
+    "messages": ["Hi"]
+}
+
+A node returns:
+
+{
+    "messages": ["Hello"]
+}
+
+updates
+
+{
+    "messages": ["Hello"]
+}
+
+(only the node's output)
+
+values
+
+{
+    "name": "Jinam",
+    "messages": ["Hi", "Hello"]
+}
+
+(entire updated state)
+
+Interview answer
+updates → "Show me what each node returned."
+values → "Show me the complete state after each node runs."
+
+That's the distinction most LangGraph beginners are expected to know. There are additional modes (such as message/token streaming), but updates and values are the core ones you'll use for understanding graph execution and debugging.
