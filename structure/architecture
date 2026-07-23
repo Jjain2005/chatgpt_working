@@ -1537,3 +1537,24 @@ values
 (entire updated state)
 
 nodes (such as message/token streaming), but updates and values are the core ones you'll use for understanding graph execution and debugging.
+
+
+Agent creates:
+
+[
+    SystemMessage(
+        content="The user's name is Jinam."
+    ),
+    HumanMessage(
+        content="What is my name?"
+    )
+]
+
+Now the model can answer correctly.
+
+Mental Model
+Messages = what's currently on the conversation table.
+Memory = what's stored in the filing cabinet.
+Before talking to the model, the agent may pull information from the filing cabinet and place it on the table as messages.
+
+That's why even when an agent has "memory", the model ultimately sees information through messages. Messages are the format the LLM consumes; memory is where information is stored between conversations or runs.
