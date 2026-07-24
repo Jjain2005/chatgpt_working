@@ -1584,3 +1584,28 @@ config = {
         "thread_id": "123"
     }
 }
+
+
+
+Total Relevant = 4
+
+Retriever returns:
+
+Chunk 17
+Chunk 42
+Chunk 700
+Chunk 800
+
+Then:
+
+Relevant Retrieved = 2
+Total Retrieved = 4
+
+Therefore:
+
+Recall = 2/4 = 50%
+Precision = 2/4 = 50%
+
+The key idea is:
+
+"Relevant" is determined by a ground-truth label, usually created by humans or benchmark datasets. The retriever only guesses; it doesn't know the true answer set.
