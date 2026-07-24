@@ -1609,3 +1609,27 @@ Precision = 2/4 = 50%
 The key idea is:
 
 "Relevant" is determined by a ground-truth label, usually created by humans or benchmark datasets. The retriever only guesses; it doesn't know the true answer set.
+
+
+
+
+In Production
+
+When a real user asks:
+
+"What is self-attention?"
+
+Nobody knows instantly whether all relevant documents were found.
+
+Therefore:
+
+Total Relevant = Unknown
+
+So you usually cannot compute Recall directly in production.
+
+You can only estimate quality using:
+
+User feedback
+Click-through rates
+Human evaluation
+Periodic benchmark tests
