@@ -1633,3 +1633,33 @@ User feedback
 Click-through rates
 Human evaluation
 Periodic benchmark tests
+
+
+In AI applications
+
+Prompt chaining is common in AI systems built with frameworks like LangChain or orchestration libraries. A typical workflow might look like:
+
+User Query
+      ↓
+Understand Intent
+      ↓
+Retrieve Relevant Data
+      ↓
+Analyze Information
+      ↓
+Generate Response
+      ↓
+Review or Format Output
+
+Some systems even include branching logic—for example, if the query is about math, route it to a calculator; if it's about documents, retrieve relevant passages first.
+
+When to use prompt chaining
+
+It's especially useful when:
+
+A task has multiple distinct stages.
+Intermediate outputs need validation.
+Different prompts require different instructions or formats.
+You want consistent, production-quality AI workflows.
+
+For very simple tasks (e.g., "Summarize this paragraph"), a single well-crafted prompt is usually sufficient. For complex workflows involving reasoning, retrieval, formatting, or multiple transformations, prompt chaining often produces better and more predictable results.
