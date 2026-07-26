@@ -1663,3 +1663,24 @@ Different prompts require different instructions or formats.
 You want consistent, production-quality AI workflows.
 
 For very simple tasks (e.g., "Summarize this paragraph"), a single well-crafted prompt is usually sufficient. For complex workflows involving reasoning, retrieval, formatting, or multiple transformations, prompt chaining often produces better and more predictable results.
+
+
+Another example: Customer support
+
+Instead of:
+
+Read the customer's email, determine the issue, search the documentation, and draft a response.
+
+Use a chain:
+
+Classify the issue
+Extract relevant information
+Find matching documentation
+Draft the response
+Review for tone and policy compliance
+Prompt chaining vs. one big prompt
+One Big Prompt	Prompt Chaining
+Simpler to write	More modular
+Faster for simple tasks	Better for complex tasks
+Harder to debug	Easy to inspect each step
+More likely to mix tasks	Each prompt has one responsibili
