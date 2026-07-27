@@ -1698,3 +1698,20 @@ Reliability: Easier to debug when something goes wrong.
 Maintainability: You can modify one step without affecting the others.
 Control: You can validate or filter outputs between steps.
 Example
+Prompt chain:
+
+Step 1: Extract key points
+
+Read this paper and list the 5 most important findings.
+
+⬇️
+
+Step 2: Create a summary
+
+Using these findings, write a 200-word summary for a technical audience.
+
+⬇️
+
+Step 3: Simplify
+
+Rewrite the summary for a non-technical audience.
