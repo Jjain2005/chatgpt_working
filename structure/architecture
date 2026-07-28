@@ -1749,3 +1749,23 @@ Literal    -> limits valid choices
 Field      -> adds metadata/instructions
 
 This is why you'll see them together constantly in LangChain, LangGraph, and agent workflows.
+
+Common use in LLMs
+class Route(BaseModel):
+    step: str = Field(
+        description="The next step in the routing process"
+    )
+
+The description helps the LLM understand what should be generated.
+
+Your Example
+class Route(BaseModel):
+    step: Literal["poem", "story", "joke"] = Field(
+        description="the next step in the routing process"
+    )
+BaseModel
+
+Creates a structured schema:
+
+{
+  "step": "story"
