@@ -1728,10 +1728,24 @@ Restricts a value to a fixed set of choices.
 Example:
 
 Literal["poem", "story", "joke"]
+Why LangChain/LangGraph use this
 
-means:
+When you do:
 
-"poem" ✅
-"story" ✅
-"joke" ✅
-"essay" ❌
+structured_llm = llm.with_structured_output(Route)
+
+the model is guided to return something like:
+
+Route(step="joke")
+
+instead of free-form text like:
+
+I think a joke would be best.
+
+So the combination is:
+
+BaseModel  -> defines structure
+Literal    -> limits valid choices
+Field      -> adds metadata/instructions
+
+This is why you'll see them together constantly in LangChain, LangGraph, and agent workflows.
