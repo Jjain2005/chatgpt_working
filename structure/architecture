@@ -1779,3 +1779,30 @@ Keep EC2 Instance Connect selected.
 Scroll down and click Connect.
 
 A terminal window should open that looks similar to:
+
+
+. EFS Mount Targets are not fully ready
+
+Earlier your mount targets were still in Creating state.
+
+Go back to:
+
+EFS → Your File System → Network
+
+Check that the mount target in your EC2's Availability Zone shows:
+
+Available
+
+not Creating.
+
+2. Security Group is blocking NFS (port 2049)
+
+In EFS:
+
+EFS → Network → Mount Target → Security Group
+
+Add an inbound rule:
+
+Type	Protocol	Port	Source
+NFS	TCP
+
