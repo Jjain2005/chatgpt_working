@@ -1824,3 +1824,22 @@ Implement:
 - Citation Engine
 
 Connect everything to current frontend.
+
+
+Generate backend implementation for existing frontend.
+
+Do not regenerate UI.
+
+Use existing routes and components.
+
+Implement:
+
+- MongoDB Atlas
+- RAG
+- FAQ Search
+- Ticket System
+- Gemini Flash
+- Document Upload
+- Citation Engine
+
+Connect everything to current frontend.
