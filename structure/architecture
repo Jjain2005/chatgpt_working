@@ -1843,3 +1843,13 @@ Implement:
 - Citation Engine
 
 Connect everything to current frontend.
+
+
+npm install langchain
+npm install @google/genai
+npm install mongodb
+npm install pdf-parse
+npm install mammoth
+npm install dotenv
+npm install zod
+npm install uuid
