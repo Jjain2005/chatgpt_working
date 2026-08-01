@@ -1853,3 +1853,16 @@ npm install mammoth
 npm install dotenv
 npm install zod
 npm install uuid
+se a chain:
+
+Classify the issue
+Extract relevant information
+Find matching documentation
+Draft the response
+Review for tone and policy compliance
+Prompt chaining vs. one big prompt
+One Big Prompt	Prompt Chaining
+Simpler to write	More modular
+Faster for simple tasks	Better for complex tasks
+Harder to debug	Easy to inspect each step
+More likely to mix tasks	Each prompt has one responsibility
