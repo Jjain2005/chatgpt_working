@@ -1907,4 +1907,25 @@ Build production AI infrastructure and enterprise AI agents.
 
 On-site: Bangalore
 
-DM your GitHub/LinkedIn + resume or email akshay@synqed.ai
+Vector Memory
+
+Store facts as embeddings:
+
+User likes cricket.
+User studies AI & ML.
+
+Retrieve relevant memories when needed.
+
+How messages and memory work together
+
+A typical agent does:
+
+User Question
+      ↓
+Load Memory
+      ↓
+Convert Memory into Messages
+      ↓
+Send Messages to LLM
+      ↓
+Get Response
