@@ -1948,3 +1948,18 @@ I_am_learning_c++
 (where _ represents spaces)
 
 Counting characters:
+
+Similarly:
+
+string s = "I am";
+
+Internally:
+
+Index	0	1	2	3
+Character	I	' '	a	m
+
+Notice that the space is also a character.
+
+Therefore:
+
+s.size()   // 4
