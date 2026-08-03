@@ -1929,3 +1929,22 @@ Convert Memory into Messages
 Send Messages to LLM
       ↓
 Get Response
+
+string s;
+getline(cin, s);
+
+int n = s.size();
+
+n is the length of the string s.
+
+For the input shown:
+
+I am learning c++
+
+The string contains:
+
+I_am_learning_c++
+
+(where _ represents spaces)
+
+Counting characters:
