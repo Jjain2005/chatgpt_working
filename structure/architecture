@@ -1973,3 +1973,21 @@ s.size()   // 4
 5. j++
 6. Check j < n
 7. Repeat
+
+
+So next iteration starts.
+
+Only things that stop loop early are:
+
+break;
+return;
+
+or condition becoming false:
+
+j < n
+
+When j finally becomes 7:
+
+7 < 7
+
+False.
