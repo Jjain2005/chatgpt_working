@@ -1960,6 +1960,16 @@ Character	I	' '	a	m
 
 Notice that the space is also a character.
 
+
+
 Therefore:
 
 s.size()   // 4
+
+1. Enter for loop
+2. Check if condition
+3. Execute if block if true
+4. Reach end of loop body
+5. j++
+6. Check j < n
+7. Repeat
