@@ -1991,3 +1991,11 @@ When j finally becomes 7:
 7 < 7
 
 False.
+
+
+Selection Sort  -> learn basics
+Bubble Sort     -> learn basics
+Insertion Sort  -> important
+Merge Sort      -> very important
+Quick Sort      -> very important
+Heap Sort       -> important
