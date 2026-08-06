@@ -1993,4 +1993,7 @@ When j finally becomes 7:
 False.
 Protocol	Purpose
 HTTP (Hypertext Transfer Protocol)	Transfers web pages over the internet.
-HTTPS (Hypertext Transfer Protocol Secure)	Secure version of HTTP using encryption (TLS).
+ access to another computer (not secure).
+SSH (Secure Shell)	Secure remote login and command execution.
+SNMP (Simple Network Management Protocol)	Monitors and manages network devices.
+NTP (Network Time Protocol)	Synchronizes the time of networked devices.
