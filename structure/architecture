@@ -1991,11 +1991,6 @@ When j finally becomes 7:
 7 < 7
 
 False.
-
-
-Selection Sort  -> learn basics
-Bubble Sort     -> learn basics
-Insertion Sort  -> important
-Merge Sort      -> very important
-Quick Sort      -> very important
-Heap Sort       -> important
+Protocol	Purpose
+HTTP (Hypertext Transfer Protocol)	Transfers web pages over the internet.
+HTTPS (Hypertext Transfer Protocol Secure)	Secure version of HTTP using encryption (TLS).
