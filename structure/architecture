@@ -1997,3 +1997,11 @@ HTTP (Hypertext Transfer Protocol)	Transfers web pages over the internet.
 SSH (Secure Shell)	Secure remote login and command execution.
 SNMP (Simple Network Management Protocol)	Monitors and manages network devices.
 NTP (Network Time Protocol)	Synchronizes the time of networked devices.
+
+TP (Hypertext Transfer Protocol)	Transfers web pages over the internet.
+HTTPS (Hypertext Transfer Protocol Secure)	Secure version of HTTP using encryption (TLS).
+FTP (File Transfer Protocol)	Transfers files between computers.
+SFTP (SSH File Transfer Protocol)	Secure file transfer over SSH.
+SMTP (Simple Mail Transfer Protocol)	Sends email.
+POP3 (Post Office Protocol v3)	Retrieves email from a mail server.
+IMAP (Internet Message Access Protocol)	Accesses and manages email on a server.
