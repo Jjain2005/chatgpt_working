@@ -1575,22 +1575,6 @@ LangGraph checkpointer:
 
 checkpointer = InMemorySaver()
 
-This saves message history between graph runs.
-
-Later:
-
-config = {
-    "configurable": {
-        "thread_id": "123"
-    }
-}
-
-
-
-Total Relevant = 4
-
-Retriever returns:
-
 Chunk 17
 Chunk 42
 Chunk 700
