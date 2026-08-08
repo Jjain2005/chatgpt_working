@@ -1,4 +1,4 @@
-vThe key lesson for interviews:
+The key lesson for interviews:
 AIMessage → .content
 list[AIMessage] → [-1].content
 The error "object is not subscriptable" usually means you're treating a single object like a list or dictionaryReward hacking occurs when an AI model exploits weaknesses in the reward function to maximize reward without actually achieving the intended behavior. In RLHF, this happens when the LLM learns shortcuts that fool the reward model rather than genuinely producing better responses.Large Language Model Training: A Three-Stage Pipeline
@@ -1988,15 +1988,7 @@ j < n
 
 When j finally becomes 7:
 
-7 < 7
-
-False.
-Protocol	Purpose
-HTTP (Hypertext Transfer Protocol)	Transfers web pages over the internet.
- access to another computer (not secure).
-SSH (Secure Shell)	Secure remote login and command execution.
-SNMP (Simple Network Management Protocol)	Monitors and manages network devices.
-NTP (Network Time Protocol)	Synchronizes the time of networked devices.
+https protocols is used in physical layer 
 
 TP (Hypertext Transfer Protocol)	Transfers web pages over the internet.
 HTTPS (Hypertext Transfer Protocol Secure)	Secure version of HTTP using encryption (TLS).
