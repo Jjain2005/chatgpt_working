@@ -1959,25 +1959,3 @@ s.size()   // 4
 7. Repeat
 
 
-So next iteration starts.
-
-Only things that stop loop early are:
-
-break;
-return;
-
-or condition becoming false:
-
-j < n
-
-When j finally becomes 7:
-
-https protocols is used in physical layer 
-
-TP (Hypertext Transfer Protocol)	Transfers web pages over the internet.
-HTTPS (Hypertext Transfer Protocol Secure)	Secure version of HTTP using encryption (TLS).
-FTP (File Transfer Protocol)	Transfers files between computers.
-SFTP (SSH File Transfer Protocol)	Secure file transfer over SSH.
-SMTP (Simple Mail Transfer Protocol)	Sends email.
-POP3 (Post Office Protocol v3)	Retrieves email from a mail server.
-IMAP (Internet Message Access Protocol)	Accesses and manages email on a server.
