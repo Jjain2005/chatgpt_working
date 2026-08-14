@@ -1852,30 +1852,6 @@ Harder to debug	Easy to inspect each step
 More likely to mix tasks	Each prompt has one responsibility
 
 
-Step 1: Extract key points
-
-Read this paper and list the 5 most important findings.
-
-⬇️
-
-Step 2: Create a summary
-
-Using these findings, write a 200-word summary for a technical audience.
-
-⬇️
-
-Step 3: Simplify
-
-Rewrite the summary for a non-technical audience.
-
-⬇️
-
-Step 4: Generate a LinkedIn post
-
-Using the simplified summary, write an engaging LinkedIn post with a call to action.
-
-Each stage produces an intermediate result that feeds the next stage.
-
 
 
 Vector Memory
