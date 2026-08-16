@@ -761,34 +761,7 @@ Each currency
 
 
 
-Algorithms commonly used:
-Bellman–Ford algorithm — detects negative-weight cycles in O(VE) time.
-Floyd–Warshall algorithm — can also detect negative cycles in O(V³) time.
-This is a classic interview and university algorithms problem because it combines graph modeling, mathematical transformation, and shortest-path algorithms.
-If you meant arbitrage in a different CS context (such as cloud computing, networking, or distributed systems), let me know.
 
-
-computer science, arbitrage is most often discussed in algorithms, but the idea appears in several areas. At its core, it means finding a way to gain an advantage by exploiting differences or inefficiencies.
-1. Arbitrage in Algorithms (most common)
-Suppose there are three currencies with these exchange rates:
-1 USD = 0.9 EUR
-1 EUR = 0.8 GBP
-1 GBP = 1.5 USD
-Start with 100 USD:
-100 USD → 90 EUR
-90 EUR → 72 GBP
-72 GBP → 108 USD
-You started with 100 USD and ended with 108 USD without adding any money. That's an arbitrage opportunity.
-
-demonstrates how to:
-Model real-world problems as graphs.
-Convert multiplication into addition using logarithms.
-Apply graph algorithms to finance and optimization.
-This is a classic example in courses on:
-Data Structures & Algorithms
-Graph Theory
-Algorithm Design
-Competitive Programming
 
 
 In simple words:
