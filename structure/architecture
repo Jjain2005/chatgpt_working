@@ -1394,30 +1394,7 @@ if uploaded_file:
         output_messages_key="answer",
     )
 
-    # =========================
-    # USER INPUT
-    # =========================
-
-    user_input = st.text_input(
-        "Ask a question from the PDF"
-    )
-
-    if user_input:
-
-        sestelsion_history = get_session_history(
-            session_id
-        )
-
-        response = conversational_rag_chain.invoke(
-            {"input": user_input},
-            config={
-                "configurable": {
-                    "session_id": session_id
-                }
-            },
-        )
-
-        st.success(response["answer"])
+    # =
 
         st.write("Chat History")
 
