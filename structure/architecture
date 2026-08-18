@@ -1706,13 +1706,6 @@ Creates a structured schema:
 
 
 
-Click Instances (running) 1 (top-left in your screenshot).
-Select your running instance.
-Click the Connect button at the top.
-Keep EC2 Instance Connect selected.
-Scroll down and click Connect.
-
-A terminal window should open that looks similar to:
 
 
 . EFS Mount Targets are not fully ready
