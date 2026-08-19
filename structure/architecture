@@ -1712,62 +1712,11 @@ Creates a structured schema:
 
 Earlier your mount targets were still in Creating state.
 
-Go back to:
-
-EFS → Your File System → Network
-
-Check that the mount target in your EC2's Availability Zone shows:
-
-Available
-
-not Creating.
-
-2. Security Group is blocking NFS (port 2049)
-
-In EFS:
-
-EFS → Network → Mount Target → Security Group
-
-Add an inbound rule:
-
-Type	Protocol	Port	Source
-NFS	TCP
 
 
-Generate backend implementation for existing frontend.
-
-Do not regenerate UI.
-
-Use existing routes and components.
-
-Implement:
-
-- MongoDB Atlas
-- RAG
-- FAQ Search
-- Ticket System
-- Gemini Flash
-- Document Upload
-- Citation Engine
-
-Connect everything to current frontend.
 
 
-Generate backend implementation for existing frontend.
 
-Do not regenerate UI.
-
-Use existing routes and components.
-
-Implement:
-
-- MongoDB Atlas
-- RAG
-- FAQ Search
-- Ticket System
-- Gemini Flash
-- Document Upload
-- Citation Engine
 
 Classify the issue
 Extract relevant information
