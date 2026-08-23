@@ -1741,5 +1741,9 @@ Send Messages to LLM
 Get Response
 
 
+Cross Encoder is called a relevance score. It represents how relevant a retrieved document is to the user's query. 
+The reranker uses these scores to reorder the retrieved documents so
+that the most relevant chunks are sent to the LLM. It is different from cosine similarity, which is used during vector sear
+
 
 
