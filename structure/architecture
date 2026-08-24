@@ -1673,13 +1673,6 @@ Creates a structured schema:
 
 
 
-. EFS Mount Targets are not fully ready
-
-Earlier your mount targets were still in Creating state.
-
-
-
-
 
 
 
