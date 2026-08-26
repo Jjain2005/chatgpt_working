@@ -741,20 +741,6 @@ Continuous self-learning would also cause catastrophic forgetting, security risk
 data poisoning, and unstable behavior. Instead, modern AI systems use memory, RAG,
 and periodic offline fine-tuning to improve models safely.
 
-Computer Science (CS), arbitrage usually refers to finding and exploiting inconsistencies in a system or market using algorithms. The most common context is in algorithm design and graph theory.
-For example, in currency exchange:
-USD → EUR → GBP → USD
-If you start with $100 and, after exchanging through these currencies, end up with more than $100, an arbitrage opportunity exists.
-How CS solves it
-This problem is modeled as a graph:
-Each currency
-
-
-
-
-
-
-
 
 In simple words:
 
