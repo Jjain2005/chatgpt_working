@@ -1019,29 +1019,6 @@ You are successfully connected to your EC2 instance.
 
 The prompt:
 
-ubuntu@ip-172-31-9-114:~$
-
-means you're logged into a Linux server running on AWS.
-
-Let's verify a few things
-
-Run:
-
-whoami
-
-Expected:
-
-ubuntu
-
-Then:
-
-pwd
-
-Expected:
-
-/home/ubuntu
-Update the server
-sudo apt update
 
 Then:
 
