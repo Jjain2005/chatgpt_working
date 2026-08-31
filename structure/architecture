@@ -1232,9 +1232,8 @@ if uploaded_file:
         ]
     )
 
-    # =========================
-    # HISTORY AWARE RETRIEVER
-    # =========================
+
+
 
     history_aware_retriever = create_history_aware_retriever(
         llm,
