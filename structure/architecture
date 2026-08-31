@@ -810,19 +810,6 @@ Check user input before it reaches the model.
 Example:
 
 
-Based on the graph in your image, a more natural LinkedIn post could be:
-
-today i learnt how to build a simple workflow using langgraph.
-
-i created a small graph where the flow starts from a start node, moves to a decision point, and then routes to different paths before reaching the end.
-
-while building it, i got a better understanding of states, nodes, edges, conditional routing, and how an agent decides what action to take next.
-
-seeing the graph visually made the whole concept much easier to understand.
-
-small step, but definitely a useful one in my journey of learning agentic ai.
-
-#ai #agenticai #langgraph #python #learninginpublic #genai
 
 
 today i learnt how to build a simple agent using langgraph.
