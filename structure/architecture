@@ -886,22 +886,6 @@ Run:
 
 ssh -i my-key.pem ubuntu@PUBLIC_IP
 
-Example:
-
-ssh -i my-key.pem ubuntu@13.232.xxx.xxx
-5. First-time connection
-
-You'll likely see:
-
-The authenticity of host ... can't be established.
-Are you sure you want to continue connecting (yes/no)?
-
-Type:
-
-yes
-
-and press Enter.
-
 6. Success
 
 If everything works, you'll see something like:
