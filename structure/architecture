@@ -852,11 +852,7 @@ Suppose you're preparing for an exam:
 
 
 
-You're currently connected through EC2 Instance Connect (browser terminal). It works great for learning.
 
-Later, when deploying real projects, you'll usually SSH from your Mac terminal using the .pem key because it's more convenient and supports file transfers (scp, rsync, Git workflows, VS Code Remote SSH, etc.).
-
-For now, run:
 
 whoami
 pwd
