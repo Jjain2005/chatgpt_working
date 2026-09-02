@@ -1600,3 +1600,16 @@ Retriever → Reranker → LLM
 
 The retriever finds candidates quickly; the cross encoder acts like a judge that picks the best candidates before the LLM answers.
 
+  "manifest_version": 3,
+  "name": "Interview Assistant",
+  "version": "1.0.0",
+  "description": "Internal interview management assistant",
+
+  "action": {
+    "default_popup": "popup.html"
+  },
+
+  "permissions": [
+    "identity",
+    "activeTab"
+  ],
