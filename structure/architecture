@@ -812,17 +812,6 @@ Example:
 
 
 
-today i learnt how to build a simple agent using langgraph.
-
-at first, all the nodes, edges and routing functions felt confusing. but after building a small example, it started to make sense.
-
-i understood how state flows through the graph, how nodes perform tasks, and how a routing function decides what happens next.
-
-it was a small project, but it helped me understand the basic logic behind agent workflows a lot better.
-
-one step closer to understanding agentic ai.
-
-#ai #agenticai #langgraph #python #learninginpublic
 
 from typing_extensions import TypedDict
 
