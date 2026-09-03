@@ -906,22 +906,6 @@ Refresh until you see:
 State: Running
 Status: 2/2 checks passed
 
-Then connect.
-
-Your details
-Public IP: 13.63.129.59
-Username: ubuntu
-On your Mac
-
-Go to where your .pem file is:
-
-cd ~/Downloads
-
-Check the filename:
-
-ls *.pem
-
-Example output:
 
 my-key.pem
 
