@@ -845,24 +845,7 @@ Suppose you're preparing for an exam:
 
 
 
-Replace my-key.pem with your actual key filename.
 
-Example:
-
-chmod 400 aws-key.pem
-4. SSH into the instance
-
-For Ubuntu AMIs, the username is usually ubuntu.
-
-Run:
-
-ssh -i my-key.pem ubuntu@PUBLIC_IP
-
-6. Success
-
-If everything works, you'll see something like:
-
-ubuntu@ip-172-31-xx-xx:~$
 
 You're now logged into your AWS server.
 
