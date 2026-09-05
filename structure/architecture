@@ -904,20 +904,6 @@ Replace my-key.pem with your actual key filename.
 
 Alternative (Browser)
 
-You're already on the Connect page.
-
-After the status checks pass:
-
-Keep EC2 Instance Connect selected.
-Click Connect at the bottom.
-
-AWS will open a browser terminal directly into your EC2 instance.
-
-This is actually the quickest way for a first test.
-
-Once you're connected and see a prompt like:
-
-ubuntu@ip-172-31-xx-xx:~$
 
 run:
 
