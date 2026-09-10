@@ -829,37 +829,7 @@ class State:
 
 
 
-Google NotebookLM is an AI-powered research and note-taking tool from Google that uses Gemini models to help you understand information you've provided. Instead of answering from general internet knowledge, it grounds its responses in the sources you upload, making it especially useful for studying, research, and document analysis.
 
-Some of its key capabilities include:
-
-
-
-Suppose you're preparing for an exam:
-
-
-
-
-
-
-
-
-
-
-
-You're now logged into your AWS server.
-
-7. First commands to run
-whoami
-pwd
-ls
-sudo apt update
-
-If you get any error (Permission denied, Connection timed out, Host key issue, etc.), paste the exact terminal output here and I'll help you fix it.
-
-Looks good.
-
-The only thing I notice is:
 
 Status: 0/2 checks passed
 
