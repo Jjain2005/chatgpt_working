@@ -858,27 +858,7 @@ Replace my-key.pem with your actual key filename.
 Alternative (Browser)
 
 
-run:
 
-whoami
-
-and
-
-uname -a
-
-and tell me the output. Then we'll install Python tools and deploy something simple on the server.
-
-Nice 🎉
-
-You are successfully connected to your EC2 instance.
-
-The prompt:
-
-
-Then:
-
-6. Upload PDF and ask questions
-Upload PDF
 Keep Session ID (or change it)
 Ask:
 What is this document about?
