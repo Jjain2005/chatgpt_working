@@ -843,27 +843,7 @@ State: Running
 Status: 2/2 checks passed
 
 
-my-key.pem
 
-Set permissions:
-
-chmod 400 my-key.pem
-
-Connect:
-
-ssh -i my-key.pem ubuntu@13.63.129.59
-
-Replace my-key.pem with your actual key filename.
-
-Alternative (Browser)
-
-
-
-Keep Session ID (or change it)
-Ask:
-What is this document about?
-You currently have 2 bugs
-Bug 1
 
 You wrote:
 
