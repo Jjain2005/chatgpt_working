@@ -1434,12 +1434,6 @@ More likely to mix tasks	Each prompt has one responsibility
 
 
 
-Vector Memory
-
-Store facts as embeddings:
-
-User likes cricket.
-User studies AI & ML.
 
 Retrieve relevant memories when needed.
 
