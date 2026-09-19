@@ -1091,9 +1091,7 @@ if uploaded_file:
         question_answer_chain
     )
 
-    # =========================
-    # SESSION HISTORY FUNCTION
-    # =========================
+  
 
     def get_session_history(
         session: str,
@@ -1148,31 +1146,6 @@ Output:
     }
 }
 
-You only see the change made by the node.
-
-values
-
-Streams the entire state after each step.
-
-Suppose state is:
-
-{
-    "messages": ["Hi"]
-}
-
-After the chatbot node:
-
-{
-    "messages": ["Hi", "Hello"]
-}
-for event in graph.stream(inputs, stream_mode="values"):
-    print(event)
-
-Output:
-
-{
-    "messages": ["Hi", "Hello"]
-}
 
 You see the complete state after every node execution.
 
