@@ -966,16 +966,9 @@ session_id = st.text_input(
     value="default_session"
 )
 
-# =========================
-# CHAT HISTORY STORE
-# =========================
 
 if "store" not in st.session_state:
     st.session_state.store = {}
-
-# =========================
-# PDF UPLOADER
-# =========================
 
 uploaded_file = st.file_uploader(
     "Upload PDF",
@@ -983,9 +976,6 @@ uploaded_file = st.file_uploader(
     accept_multiple_files=False
 )
 
-# =========================
-# PROCESS PDF
-# =========================
 
 if uploaded_file:
 
