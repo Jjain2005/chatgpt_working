@@ -941,25 +941,17 @@ embeddings = HuggingFaceEmbeddings(
     model_name="sentence-transformers/all-MiniLM-L6-v2"
 )
 
-# =========================
-# LOCAL OLLAMA LLM
-# =========================
+
 
 llm = Ollama(
     model="llama3",
     temperature=0
 )
 
-# =========================
-# STREAMLIT UI
-# =========================
-
 st.title("Conversational RAG With PDF Uploads")
 st.write("Upload a PDF and chat with it locally using Ollama")
 
-# =========================
-# SESSION ID
-# =========================
+
 
 session_id = st.text_input(
     "Session ID",
@@ -984,9 +976,6 @@ if uploaded_file:
     with open(temp_pdf, "wb") as file:
         file.write(uploaded_file.getvalue())
 
-    # =========================
-    # LOAD PDF
-    # =========================
 
     loader = PyPDFLoader(temp_pdf)
 
