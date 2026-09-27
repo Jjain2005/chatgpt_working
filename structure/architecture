@@ -1079,7 +1079,7 @@ if uploaded_file:
 
 
 
-how to runit 
+how to run it 
 
 Almost. In LangGraph, the most commonly used stream modes are values and updates, but there are other modes as well.
 
@@ -1347,18 +1347,6 @@ Creates a structured schema:
 
 
 
-
-Classify the issue
-Extract relevant information
-Find matching documentation
-Draft the response
-Review for tone and policy compliance
-Prompt chaining vs. one big prompt
-One Big Prompt	Prompt Chaining
-Simpler to write	More modular
-Faster for simple tasks	Better for complex tasks
-Harder to debug	Easy to inspect each step
-More likely to mix tasks	Each prompt has one responsibility
 
 
 
