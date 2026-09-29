@@ -222,14 +222,6 @@ Chroma
 Pinecone
 Weaviate
 
-The workflow is:
-
-Split documents into chunks.
-Convert chunks into embeddings (vectors).
-Store vectors in a vector database.
-
-Each vector is stored along with its corresponding text chunk (metadata).
-
 
 Similarity Search / Retrieval
 
