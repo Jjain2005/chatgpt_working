@@ -85,17 +85,7 @@ Constitutional AI rules
 Safety classifiers
 Policy fine-tuning
 
-Flow:
-
-Aligned Model → [Safety Alignment] → Safer Assistant Model
-
-
-
-Stage 5: Evaluation & Benchmark Testing
-
-The model is extensively tested before deployment.
-
-Evaluation areas:
+ areas:
 Reasoning ability
 Coding performance
 Mathematics
