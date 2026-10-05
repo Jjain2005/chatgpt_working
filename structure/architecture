@@ -1215,11 +1215,6 @@ Generate Response
       ↓
 Review or Format Output
 
-Some systems even include branching logic—for example, if the query is about math, route it to a calculator; if it's about documents, retrieve relevant passages first.
-
-When to use prompt chaining
-
-It's especially useful when:
 
 Use a chain:
 
