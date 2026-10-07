@@ -329,9 +329,6 @@ User Query
 
 
 
-now procedding towards graph rag
-
-GraphRAG = Knowledge Graph + RAG + LLM
 
 Traditional RAG retrieves chunks of text using vector similarity.
 
