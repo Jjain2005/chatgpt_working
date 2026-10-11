@@ -314,18 +314,7 @@ Vector Search
 Keyword Search
 User Query
       ↓
- ┌───────────┐
- │ BM25      │
- └───────────┘
-      +
- ┌───────────┐
- │ Embedding │
- │ Search    │
- └───────────┘
-      ↓
- Combined Ranking
-      ↓
- Best Documents
+ 
 
 
 
