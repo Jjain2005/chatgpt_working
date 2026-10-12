@@ -41,17 +41,6 @@ Overall quality
 
 
 
-2. Reward Model Training
-
-Rankings are converted into a reward signal
-A separate reward model learns to predict which response is preferable
-The system operates probabilistically:
-
-High probability/score → stronger, better response
-Low probability/score → weaker, lower-quality response
-
-
-
 3. Optimization Approach
 
 Uses binary classification (better vs. worse response)
