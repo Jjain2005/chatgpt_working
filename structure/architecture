@@ -1181,8 +1181,7 @@ Review or Format Output
 
 Use a chain:
 
-Classify the issue
-Extract relevant information
+
 Find matching documentation
 Draft the response
 Review for tone and policy compliance
@@ -1283,12 +1282,6 @@ Creates a structured schema:
 
 
 
-
-
-
-
-
-
 Retrieve relevant memories when needed.
 
 How messages and memory work together
@@ -1330,5 +1323,5 @@ The retriever finds candidates quickly; the cross encoder acts like a judge that
 
 
 
-lets work and understand things further 
+
 
