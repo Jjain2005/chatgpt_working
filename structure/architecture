@@ -62,10 +62,6 @@ stage 4: Safety Alignment & Guardrail Training
 
 After RLHF, additional safety-focused training is applied.
 
-Objectives:
-Prevent harmful outputs
-Reduce hallucinations
-Block unsafe or illegal instructions
 
 Methods:
 Adversarial prompting
