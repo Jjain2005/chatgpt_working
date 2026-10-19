@@ -58,9 +58,6 @@ Low (0.0 - 0.2):           Poor response, unhelpful/harmful
 
 
 
-stage 4: Safety Alignment & Guardrail Training
-
-After RLHF, additional safety-focused training is applied.
 
 
 Methods:
