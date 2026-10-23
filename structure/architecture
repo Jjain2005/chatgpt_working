@@ -788,15 +788,6 @@ Status: 2/2 checks passed
 
 
 
-You wrote:
-
-sestelsion_history = get_session_history(session_id)
-
-Later:
-
-st.write(session_history.messages)
-
-
 
 
 
