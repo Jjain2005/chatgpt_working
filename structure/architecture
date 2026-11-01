@@ -1177,14 +1177,7 @@ Prompt chaining is a technique where you break a complex task into a sequence of
 
 Why use prompt chaining?
 
-Prompt chaining can improve:
 
-Accuracy: Each prompt focuses on one task.
-Reliability: Easier to debug when something goes wrong.
-Maintainability: You can modify one step without affecting the others.
-Control: You can validate or filter outputs between steps.
-Example
-Prompt chain:
 
 Step 1: Extract key points
 
