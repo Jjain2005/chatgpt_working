@@ -318,9 +318,7 @@ that is LORA and QLORA.
 
 
 
-but today will try to understand SFT (SUPERVISIED FINE TUNING) VS CPT (countinued pre training)
-in cpt is basically its raw text generation. just countinues to generate text learnt from base model. 
-doesn't know how to properly formulate the answer/ doesnot knwo about architecture of answer 
+b about architecture of answer 
 
 
 
