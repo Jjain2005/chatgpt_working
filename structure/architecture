@@ -1007,17 +1007,7 @@ Imagine your state is:
     "messages": ["Hi"]
 }
 
-A node returns:
 
-{
-    "messages": ["Hello"]
-}
-
-updates
-
-{
-    "messages": ["Hello"]
-}
 
 (only the node's output)
 
